@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Chat with AI - MediAssist AI</title>
+
+    <link rel="stylesheet" href="stylee.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+</head>
+
+<body class="chat-page">
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div>
+
+            <div class="logo">
+
+                <img
+                    src="robot.jpg"
+                    alt="MediAssist Logo"
+                >
+
+                <div>
+
+                    <h2>MediAssist AI</h2>
+
+                    <p>Your Health, Our Priority</p>
+
+                </div>
+
+            </div>
+
+            <ul class="menu">
+
+                <a href="index.html">
+
+                    <li>
+
+                        <i class="fa-solid fa-house"></i>
+
+                        Home
+
+                    </li>
+
+                </a>
+
+                <li class="active">
+
+                    <i class="fa-solid fa-comments"></i>
+
+                    Chat with AI
+
+                </li>
+
+                <a href="index.html#bmi-section">
+
+                    <li>
+
+                        <i class="fa-solid fa-calculator"></i>
+
+                        BMI CALCULATOR
+
+                    </li>
+
+                </a>
+
+            </ul>
+
+        </div>
+
+    </aside>
+
+    <!-- MAIN CONTENT -->
+
+    <main class="chat-main">
+
+        <nav>
+
+            <button
+                id="themeBtn"
+                aria-label="Toggle theme"
+            >
+
+                <i class="fa-regular fa-sun"></i>
+
+            </button>
+
+            <div class="logo-main">
+
+                <a
+                    href="index.html"
+                    class="chat-btn"
+                >
+
+                    ← Back to Home
+
+                </a>
+
+            </div>
+
+        </nav>
+
+        <!-- CHAT AREA -->
+
+        <section
+            class="chat-area"
+            id="chat-area"
+        >
+
+            <!-- CHAT HEADER -->
+
+            <div class="chat-header">
+
+                <div class="chat-heading">
+
+                    <span class="assistant-avatar">
+                        🤖
+                    </span>
+
+                    <div>
+
+                        <h2>
+                            MediAssist Interactive Health Assistant
+                        </h2>
+
+                        <p>
+                            Ask health questions or describe your
+                            symptoms in English or Hinglish.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <span class="chat-status">
+
+                    <span class="status-dot"></span>
+
+                    Local AI
+
+                </span>
+
+            </div>
+
+            <!-- SCROLLABLE CHAT HISTORY -->
+
+            <div
+                class="chat-history"
+                id="chatHistory"
+                role="log"
+                aria-label="Chat conversation"
+                aria-live="polite"
+                aria-relevant="additions"
+            >
+
+                <div class="chat-welcome">
+
+                    <div class="welcome-icon">
+                        🤖
+                    </div>
+
+                    <h3>
+                        How can I help you today?
+                    </h3>
+
+                    <p>
+                        Describe your symptoms or ask a
+                        general health-related question
+                        in English or Hinglish.
+                    </p>
+
+                    <small>
+                        Educational information only.
+                        Not a medical diagnosis.
+                    </small>
+
+                </div>
+
+            </div>
+
+            <!-- CHAT COMPOSER -->
+
+            <div class="chat-composer">
+
+                <!-- QUICK SUGGESTIONS -->
+
+                <div class="chips">
+
+                    <button type="button">
+                        I have a fever
+                    </button>
+
+                    <button type="button">
+                        I have pain in my head
+                    </button>
+
+                    <button type="button">
+                        I can't sleep
+                    </button>
+
+                    <button type="button">
+                      Malaria Symptoms?
+                    </button>
+
+                    <button type="button">
+                        I have constipation
+                    </button>
+
+                    <button type="button">
+                       Acne Cure?
+                    </button>
+
+                </div>
+
+                <!-- MESSAGE INPUT -->
+
+                <div class="chat-box">
+
+                    <i class="fa-solid fa-comment-medical"></i>
+
+                    <input
+                        type="text"
+                        id="chatInput"
+                        placeholder="Ask anything in English or Hinglish..."
+                        aria-label="Your message"
+                        autocomplete="off"
+                    >
+
+                    <button
+                        id="sendBtn"
+                        type="button"
+                        aria-label="Send message"
+                    >
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                    </button>
+
+                </div>
+
+                <!-- DISCLAIMER -->
+
+                <p class="chat-disclaimer">
+
+                    MediAssist can make mistakes.
+                    Consult a qualified professional
+                    for medical advice.
+
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

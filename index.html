@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MediAssist AI</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="stylee.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <!-- =====================================================
+         SIDEBAR
+         ===================================================== -->
+
+    <aside class="sidebar">
+
+        <div>
+
+            <div class="logo">
+
+                <img src="robot.jpg" alt="Logo">
+
+                <div>
+                    <h2>MediAssist AI</h2>
+                    <p>Your Health, Our Priority</p>
+                </div>
+
+            </div>
+
+
+            <ul class="menu">
+
+                <li class="active">
+                    <i class="fa-solid fa-house"></i>
+                    Home
+                </li>
+
+
+                <a href="chat.html"
+                   style="color:inherit !important; text-decoration:none !important;">
+
+                    <li>
+                        <i class="fa-solid fa-comments"></i>
+                        Chat with AI
+                    </li>
+
+                </a>
+
+
+                <a href="#outbreak-section"
+                   style="color:inherit !important; text-decoration:none !important;">
+
+                    <li>
+                        <i class="fa-solid fa-stethoscope"></i>
+                        Regional health outbreaks
+                    </li>
+
+                </a>
+
+
+                <a href="#bmi-section"
+                   style="color:inherit !important; text-decoration:none !important;">
+
+                    <li>
+                        <i class="fa-solid fa-calculator"></i>
+                        BMI Calculator
+                    </li>
+
+                </a>
+
+
+                <a href="health_tips.html"
+                   style="color:inherit !important; text-decoration:none !important;">
+
+                    <li>
+                        <i class="fa-solid fa-heart-pulse"></i>
+                        Health Tips
+                    </li>
+
+                </a>
+
+
+                <a href="#medicine-reminder"
+                   style="color:inherit !important; text-decoration:none !important;">
+
+                    <li>
+                        <i class="fa-solid fa-pills"></i>
+                        Medicine Reminder
+                    </li>
+
+                </a>
+
+
+                <a href="#health-records"
+                   style="color:inherit !important; text-decoration:none !important;">
+
+                    <li>
+                        <i class="fa-solid fa-file-medical"></i>
+                        Health Records
+                    </li>
+
+                </a>
+                
+                <li>
+                    <i class="fa-solid fa-gear"></i>
+                    Settings
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- Emergency Card -->
+
+        <div class="emergency-card">
+
+            <h3>Need Immediate Help?</h3>
+
+            <div class="call">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <span>108</span>
+
+            </div>
+
+            <p>24×7 Available</p>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- =====================================================
+         MAIN
+         ===================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             NAVBAR
+             ================================================= -->
+
+        <nav>
+
+            <button id="themeBtn">
+                <i class="fa-regular fa-sun"></i>
+            </button>
+
+
+            <select>
+
+                <option>English</option>
+                <option>Hindi</option>
+
+            </select>
+
+
+            <div class="logo-main">
+
+                <img
+                    class="img2"
+                    src="p.jpg"
+                    alt="User"
+                >
+
+
+                <a href="chat.html">
+
+                    <button class="chat-btn">
+                        Start Chat
+                    </button>
+
+                </a>
+
+            </div>
+
+
+            <button class="loginBtn">
+
+                <i class="fa-solid fa-user"></i>
+
+                Login
+
+            </button>
+
+        </nav>
+
+
+
+        <!-- =================================================
+             HERO
+             ================================================= -->
+
+        <section class="hero">
+
+            <div class="left">
+
+                <span class="badge">
+                    ✨ Powered by AI
+                </span>
+
+
+                <h1>
+                    Hello! I'm
+                    <span>MediAssist AI</span>
+                </h1>
+
+
+                <p>
+                    Your personal medical assistant.
+                    Ask me anything about health, symptoms,
+                    medicines and more.
+                </p>
+
+            </div>
+
+
+            <div class="right">
+
+                <img
+                    src="robi.jpeg"
+                    height="300px"
+                    alt="Bot Graphic"
+                >
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             FEATURE CARDS
+             ================================================= -->
+
+        <section class="cards">
+
+
+            <a href="chat.html"
+               style="text-decoration:none; color:inherit;">
+
+                <div class="card">
+
+                    <i class="fa-solid fa-comment-medical"></i>
+
+                    <h3>
+                        AI Health Chat
+                    </h3>
+
+                    <p>
+                        Get answers to your health questions.
+                    </p>
+
+                </div>
+
+            </a>
+
+
+
+            <a href="#outbreak-section"
+               style="text-decoration:none; color:inherit;">
+
+                <div class="card">
+
+                    <i class="fa-solid fa-stethoscope"></i>
+
+                    <h3>
+                        Regional Health Outbreaks
+                    </h3>
+
+                    <p>
+                        View health information and precautions.
+                    </p>
+
+                </div>
+
+            </a>
+
+
+
+            <a href="health_tips.html"
+               style="text-decoration:none; color:inherit;">
+
+                <div class="card">
+
+                    <i class="fa-solid fa-heart-pulse"></i>
+
+                    <h3>
+                        Health Tips
+                    </h3>
+
+                    <p>
+                        Personalized daily health advice.
+                    </p>
+
+                </div>
+
+            </a>
+
+
+
+            <a href="#medicine-reminder"
+               style="text-decoration:none; color:inherit;">
+
+                <div class="card">
+
+                    <i class="fa-solid fa-pills"></i>
+
+                    <h3>
+                        Medicine Reminder
+                    </h3>
+
+                    <p>
+                        Never miss your medicine schedule.
+                    </p>
+
+                </div>
+
+            </a>
+
+
+
+            <a href="#health-records"
+               style="text-decoration:none; color:inherit;">
+
+                <div class="card">
+
+                    <i class="fa-solid fa-file-medical"></i>
+
+                    <h3>
+                        Health Records
+                    </h3>
+
+                    <p>
+                        Keep your important health records organized.
+                    </p>
+
+                </div>
+
+            </a>
+
+        </section>
+
+
+
+        <!-- =================================================
+             BMI CALCULATOR
+             ================================================= -->
+
+        <section
+            class="bmi-section"
+            id="bmi-section"
+        >
+
+            <h2>
+                BMI Calculator
+            </h2>
+
+
+            <p>
+                Enter your details to calculate your BMI.
+            </p>
+
+
+            <div class="bmi-inputs">
+
+                <input
+                    type="number"
+                    id="weight"
+                    placeholder="Weight (kg)"
+                >
+
+
+                <input
+                    type="number"
+                    id="heightFeet"
+                    placeholder="Feet"
+                    min="1"
+                    max="8"
+                >
+
+
+                <input
+                    type="number"
+                    id="heightInches"
+                    placeholder="Inches"
+                    min="0"
+                    max="11"
+                >
+
+
+                <button id="calculateBmi">
+                    Calculate BMI
+                </button>
+
+            </div>
+
+
+            <div id="bmiResult">
+                Your BMI: --
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             REGIONAL OUTBREAK
+             ================================================= -->
+
+        <section
+            class="outbreak-section"
+            id="outbreak-section"
+        >
+
+            <div class="section-header">
+
+                <div>
+
+                    <h2>
+                        <i class="fa-solid fa-shield-virus"></i>
+                        Regional Health & Outbreak Monitor
+                    </h2>
+
+                    <p>
+                        Health information and preventive guidelines.
+                    </p>
+
+                </div>
+
+
+                <span class="live-tag">
+                    <i class="fa-solid fa-circle-dot"></i>
+                    Information
+                </span>
+
+            </div>
+
+
+
+            <div class="outbreak-grid">
+
+
+                <!-- Viral Flu -->
+
+                <div class="outbreak-card danger">
+
+                    <div class="card-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=600&q=80"
+                            alt="Viral Infection"
+                        >
+
+                        <span class="risk-badge high">
+                            Health Alert
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <h3>
+                            Viral Flu & Respiratory Infections
+                        </h3>
+
+
+                        <p class="desc">
+                            Common symptoms can include fever,
+                            fatigue and cough.
+                        </p>
+
+
+                        <div class="symptom-tags">
+
+                            <span>
+                                <i class="fa-solid fa-temperature-high"></i>
+                                Fever
+                            </span>
+
+
+                            <span>
+                                <i class="fa-solid fa-head-side-cough"></i>
+                                Cough
+                            </span>
+
+
+                            <span>
+                                <i class="fa-solid fa-bed"></i>
+                                Fatigue
+                            </span>
+
+                        </div>
+
+
+                        <div class="precaution-box">
+
+                            <h4>
+                                <i class="fa-solid fa-lightbulb"></i>
+                                Preventive Actions:
+                            </h4>
+
+
+                            <ul>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Maintain good hygiene
+                                </li>
+
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Stay hydrated
+                                </li>
+
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Seek medical advice when needed
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Dengue -->
+
+                <div class="outbreak-card warning">
+
+                    <div class="card-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80"
+                            alt="Dengue Information"
+                        >
+
+                        <span class="risk-badge moderate">
+                            Health Information
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+                        <h3>
+                            Dengue & Vector-Borne Fever
+                        </h3>
+
+
+                        <p class="desc">
+                            Mosquito-borne illnesses can cause
+                            fever, headache and body discomfort.
+                        </p>
+
+
+                        <div class="symptom-tags">
+
+                            <span>
+                                <i class="fa-solid fa-temperature-high"></i>
+                                Fever
+                            </span>
+
+
+                            <span>
+                                <i class="fa-solid fa-bone"></i>
+                                Body Pain
+                            </span>
+
+
+                            <span>
+                                <i class="fa-solid fa-vial"></i>
+                                Blood Test
+                            </span>
+
+                        </div>
+
+
+                        <div class="precaution-box">
+
+                            <h4>
+                                <i class="fa-solid fa-lightbulb"></i>
+                                Preventive Actions:
+                            </h4>
+
+
+                            <ul>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Use mosquito protection
+                                </li>
+
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Avoid stagnant water
+                                </li>
+
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Consult a healthcare professional if unwell
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             MEDICINE REMINDER
+             ================================================= -->
+
+        <section
+            class="medicine-section"
+            id="medicine-reminder"
+        >
+
+
+            <div class="medicine-header">
+
+                <div>
+
+                    <span class="medicine-label">
+                        💊 HEALTH CARE
+                    </span>
+
+
+                    <h2>
+                        Medicine Reminder
+                    </h2>
+
+
+                    <p>
+                        Never miss your medicines again 🌷
+                    </p>
+
+                </div>
+
+
+                <div class="medicine-icon">
+                    💊
+                </div>
+
+            </div>
+
+
+
+            <div class="medicine-card add-medicine-card">
+
+                <h3>
+                    ✨ Add a Medicine
+                </h3>
+
+
+                <div class="medicine-form">
+
+
+                    <div class="form-group">
+
+                        <label>
+                            Medicine Name
+                        </label>
+
+
+                        <input
+                            type="text"
+                            id="medicineName"
+                            placeholder="e.g. Vitamin C"
+                        >
+
+                    </div>
+
+
+
+                    <div class="form-row">
+
+
+                        <div class="form-group">
+
+                            <label>
+                                Time
+                            </label>
+
+
+                            <input
+                                type="time"
+                                id="medicineTime"
+                            >
+
+                        </div>
+
+
+
+                        <div class="form-group">
+
+                            <label>
+                                Type
+                            </label>
+
+
+                            <select id="medicineType">
+
+                                <option value="💊 Tablet">
+                                    💊 Tablet
+                                </option>
+
+                                <option value="💧 Syrup">
+                                    💧 Syrup
+                                </option>
+
+                                <option value="🧴 Drops">
+                                    🧴 Drops
+                                </option>
+
+                                <option value="💉 Injection">
+                                    💉 Injection
+                                </option>
+
+                                <option value="🌿 Other">
+                                    🌿 Other
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="form-group">
+
+                        <label>
+                            Note
+                            <span>(optional)</span>
+                        </label>
+
+
+                        <input
+                            type="text"
+                            id="medicineNote"
+                            placeholder="e.g. After breakfast"
+                        >
+
+                    </div>
+
+
+
+                    <button
+                        type="button"
+                        class="add-medicine-btn"
+                        id="addMedicineBtn"
+                    >
+
+                        <i class="fa-solid fa-plus"></i>
+
+                        Add Reminder
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="medicine-card reminders-card">
+
+                <div class="reminder-title">
+
+                    <div>
+
+                        <h3>
+                            🌸 Today's Reminders
+                        </h3>
+
+                        <p id="reminderDate"></p>
+
+                    </div>
+
+
+                    <span id="medicineCount">
+                        0 reminders
+                    </span>
+
+                </div>
+
+
+                <div
+                    id="medicineList"
+                    class="medicine-list"
+                >
+
+                    <div class="empty-medicine">
+
+                        <div class="empty-icon">
+                            💊
+                        </div>
+
+
+                        <h4>
+                            No medicines added yet
+                        </h4>
+
+
+                        <p>
+                            Add your first reminder above ✨
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             HEALTH RECORDS
+             ================================================= -->
+
+        <section
+            class="health-records-section"
+            id="health-records"
+        >
+
+
+            <!-- Header -->
+
+            <div class="records-header">
+
+                <div>
+
+                    <span class="records-label">
+                        📁 MY HEALTH
+                    </span>
+
+
+                    <h2>
+                        Health Records
+                    </h2>
+
+
+                    <p>
+                        Keep your important health information
+                        organized in one place.
+                    </p>
+
+                </div>
+
+
+                <div class="records-icon">
+                    🩺
+                </div>
+
+            </div>
+
+
+
+            <!-- Add Record -->
+
+            <div class="records-card">
+
+                <h3>
+                    ✨ Add New Record
+                </h3>
+
+
+                <div class="records-form">
+
+
+                    <div class="records-row">
+
+
+                        <div class="record-field">
+
+                            <label>
+                                Record Type
+                            </label>
+
+
+                            <select id="recordType">
+
+                                <option value="🧪 Lab Report">
+                                    🧪 Lab Report
+                                </option>
+
+                                <option value="💊 Prescription">
+                                    💊 Prescription
+                                </option>
+
+                                <option value="🩺 Doctor Visit">
+                                    🩺 Doctor Visit
+                                </option>
+
+                                <option value="📄 Medical Report">
+                                    📄 Medical Report
+                                </option>
+
+                                <option value="💉 Vaccination">
+                                    💉 Vaccination
+                                </option>
+
+                                <option value="📋 Other">
+                                    📋 Other
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+
+                        <div class="record-field">
+
+                            <label>
+                                Date
+                            </label>
+
+
+                            <input
+                                type="date"
+                                id="recordDate"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="record-field">
+
+                        <label>
+                            Record Name
+                        </label>
+
+
+                        <input
+                            type="text"
+                            id="recordName"
+                            placeholder="e.g. Blood Test Report"
+                        >
+
+                    </div>
+
+
+
+                    <div class="record-field">
+
+                        <label>
+                            Notes
+                            <span>(optional)</span>
+                        </label>
+
+
+                        <textarea
+                            id="recordNotes"
+                            rows="3"
+                            placeholder="Add a short description..."
+                        ></textarea>
+
+                    </div>
+
+
+
+                    <button
+                        type="button"
+                        class="save-record-btn"
+                        id="saveRecordBtn"
+                    >
+
+                        <i class="fa-solid fa-plus"></i>
+
+                        Save Record
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Saved Records -->
+
+            <div class="records-card">
+
+                <div class="records-list-header">
+
+                    <div>
+
+                        <h3>
+                            📋 Saved Records
+                        </h3>
+
+                        <p id="recordCount">
+                            0 records
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="recordsList"
+                    class="records-list"
+                >
+
+                    <div class="empty-records">
+
+                        <div class="empty-record-icon">
+                            📁
+                        </div>
+
+
+                        <h4>
+                            No health records yet
+                        </h4>
+
+
+                        <p>
+                            Add your first health record above ✨
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CHAT
+             ================================================= -->
+
+        <section
+            class="chat-area"
+            id="chat-area"
+        >
+
+            <h2>
+                How can I help you today?
+            </h2>
+
+
+            <div id="chat-messages"></div>
+
+
+            <div class="chat-box">
+
+                <i class="fa-solid fa-paperclip"></i>
+
+
+                <input
+                    type="text"
+                    placeholder="Type your health question here..."
+                >
+
+
+                <button id="sendBtn">
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                </button>
+
+            </div>
+
+
+            <div class="chips">
+
+                <button>
+                    I have a fever
+                </button>
+
+                <button>
+                    I have pain in my head
+                </button>
+
+                <button>
+                    I can't sleep?
+                </button>
+
+                <button>
+                    Dengue Symptoms
+                </button>
+
+                <button>
+                    I have constipation
+                </button>
+
+                <button>
+                   Normal BP Range
+                </button>
+
+                <button>
+                    I have low BP?
+                </button>
+
+                <button>
+                    cancer?
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+
+        <div class="footer-about">
+
+            <h2>
+                🩺 MediAssist AI
+            </h2>
+
+
+            <p>
+                Your trusted AI-powered healthcare assistant
+                providing health guidance, symptom analysis
+                and wellness support.
+            </p>
+
+        </div>
+
+
+
+        <div class="footer-links">
+
+            <h3>
+                Quick Links
+            </h3>
+
+
+            <a href="#">
+                Home
+            </a>
+
+
+            <a href="chat.html">
+                Chat AI
+            </a>
+
+
+            <a href="#bmi-section">
+                BMI Calculator
+            </a>
+
+
+            <a href="#medicine-reminder">
+                Medicine Reminder
+            </a>
+
+
+            <a href="#health-records">
+                Health Records
+            </a>
+
+        </div>
+
+
+
+        <div class="footer-services">
+
+            <h3>
+                Services
+            </h3>
+
+
+            <a href="chat.html">
+                AI Chatbot
+            </a>
+
+
+            <a href="#bmi-section">
+                BMI Calculator
+            </a>
+
+
+            <a href="health_tips.html">
+                Health Tips
+            </a>
+
+
+            <a href="#medicine-reminder">
+                Medicine Reminder
+            </a>
+
+
+            <a href="#health-records">
+                Health Records
+            </a>
+
+        </div>
+
+
+
+        <div class="footer-contact">
+
+            <h3>
+                Contact
+            </h3>
+
+
+            <p>
+                <a href="mailto:mediassistai1@gmail.com">
+                    support@mediassistai1.com
+                </a>
+            </p>
+
+
+            <p>
+                📞 +91 XXXXX XXXXX
+            </p>
+
+
+            <p>
+                📍 Bhagalpur, Bihar
+            </p>
+
+
+            <div class="social-icons">
+
+                <a href="#">
+                    <i class="fab fa-github"></i>
+                </a>
+
+
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+
+                <a href="#">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <hr>
+
+
+    <p class="disclaimer">
+
+        Disclaimer: MediAssist AI provides health information
+        for educational purposes only and is not a substitute
+        for professional medical advice.
+
+    </p>
+
+
+    <p class="copyright">
+
+        © 2026 MediAssist AI | All Rights Reserved.
+
+    </p>
+
+</footer>
+
+
+
+<!-- JavaScript -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
